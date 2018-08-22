@@ -21,7 +21,7 @@ public interface CL_List {
 
     public CLType CLInsertNode(CLType head,String findkey,DATA nodeData);
 
-    public CLType CLDeleteNode(CLType head,String key);
+    public int CLDeleteNode(CLType head,String key);
 
     public int CLLength(CLType head);
 
